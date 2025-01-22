@@ -4,7 +4,7 @@
 
 services:
   proxy:
-    image: nginx:1.23 # this will use the latest version of 1.23
+    image: nginx:1.27 # this will use the latest version of 1.23
     ports:
       # NOTE: if port 80 is already in use on your host, this won't work
       # in that case, change to any high port, like '8000:80'
